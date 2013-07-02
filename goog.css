@@ -36,7 +36,7 @@ a {
 /* Nicks */
 
 .sender[type=normal] { color: #404040; font-weight: bold; margin-right: 1.5ex; }
-.sender[type=myself] { color: #3079ED; font-weight: bold; margin-right: 1.5ex; }
+.sender[type=myself] { color: #357AE8; font-weight: bold; margin-right: 1.5ex; }
 
 /* Messages */
 .message[type=privmsg] { color: #222; }
@@ -62,8 +62,8 @@ a {
 .message[type=debug_receive] { color: #5e5960; }
 
 .highlight {
-	color: #ca773f;
-	font-weight: normal;
+	color: #222;
+	font-weight: bold;
 }
 
 /* Special spans */
@@ -144,8 +144,8 @@ body.normal .line[highlight=true] > .sender[type=normal] {
 	-webkit-border-top-right-radius: 3px;
 	-webkit-border-bottom-right-radius: 3px;
 	line-height:3ex;
-	background-color: #3B434C;	/* dark gray blue */
-	color: #CF6A4C;
+	background-color: #d94a38;
+	color: #fff;
 }
 
 body.normal .sender[type=myself]:after {
